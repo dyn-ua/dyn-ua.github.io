@@ -23,7 +23,7 @@ div.blackline {
 }
 
 div.wrappermenu {
-    width: 70%;
+    width: 55%;
     border: 1px dashed grey;
     margin: 0 auto;
     color: beige;
@@ -51,17 +51,16 @@ section.section1 {
     background-image: url(img/background.png);
     background-size: contain;
     min-height: 100vh;
-    
-    
+        
 }
 div.wrappersection1 {
-    width: 50%;
+    width: 55%;
     min-height: 100vh;
     border: 1px dashed grey;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 3rem;
     color: beige;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
     
 section.section2 {
