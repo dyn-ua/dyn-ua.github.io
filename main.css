@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    margin:0;
+    margin: 0;
 }
 
 div.blackline {
@@ -18,21 +18,50 @@ div.blackline {
     background: #000;
     position: fixed;
     top: 0;
+    margin: 0 auto;
+   
 }
 
+div.wrappermenu {
+    width: 70%;
+    border: 1px dashed grey;
+    margin: 0 auto;
+    color: beige;
+}
 
+ul.menu li{
+    
+    display: inline-block;
+    width: 20%;
+    float: left;
+    list-style: none;
+    border: 1px solid red;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+ul.menu::after {
+    display: table;
+    content: "";
+    clear: both;
+}
 section.section1 {
     background-image: url(img/background.png);
     background-size: contain;
     min-height: 100vh;
+    
+    
 }
-.wrapper {
-    width: 30%;
+div.wrappersection1 {
+    width: 50%;
     min-height: 100vh;
     border: 1px dashed grey;
     margin: 0 auto;
     padding: 2rem;
     color: beige;
+    /*box-sizing: border-box;*/
 }
     
 section.section2 {
