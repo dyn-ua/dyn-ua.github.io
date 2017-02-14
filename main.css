@@ -6,21 +6,28 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    max-width: 100wv;
 }
 
 header {
-    
+    margin:0;
 }
+
+div.blackline {
+    height: 10%;
+    width: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+}
+
 
 section.section1 {
     background-image: url(img/background.png);
     background-size: contain;
     min-height: 100vh;
-    max-width: 100wv;
 }
 .wrapper {
-    width: 30rem;
+    width: 30%;
     min-height: 100vh;
     border: 1px dashed grey;
     margin: 0 auto;
