@@ -17,7 +17,8 @@ div.blackline {
     width: 100%;
     background: #000;
     position: fixed;
-    margin: 0 auto;
+    margin-top: 0;
+    
 }
 
 div.wrappermenu {
@@ -34,19 +35,19 @@ ul.menu {
     width: 100%;
     margin: 0;
     padding: 0;
+        
 }
 
 ul.menu li {
-    
-    display: inline-block;
+    height: 10vh;
+    display: block;
     width: 20%;
     float: left;
     list-style: none;
     border: 1px solid red;
     text-align: center;
     box-sizing: border-box;
-    padding: 0;
-    margin: 4% auto;
+    line-height: 10vh;
     
 }
 
@@ -59,17 +60,22 @@ section.section1 {
     background-image: url(img/background.png);
     background-size: contain;
     min-height: 100vh;
-        
 }
+
 div.wrappersection1 {
     width: 55%;
     min-height: 100vh;
     border: 1px dashed grey;
     margin: 0 auto;
-    padding: 6%;
     text-align: justify;
     color: beige;
     box-sizing: border-box;
+    padding: 10vh 5vh;
+    
+}
+
+h1 { 
+    text-align: center; 
 }
     
 section.section2 {
