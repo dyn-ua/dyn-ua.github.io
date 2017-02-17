@@ -32,7 +32,7 @@ div.wrappermenu {
 
 ul.menu {
     width: 100%;
-    margin: 4% auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -46,7 +46,7 @@ ul.menu li {
     text-align: center;
     box-sizing: border-box;
     padding: 0;
-    /*margin: 4% auto;*/
+    margin: 4% auto;
     
 }
 
@@ -66,7 +66,7 @@ div.wrappersection1 {
     min-height: 100vh;
     border: 1px dashed grey;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 6%;
     text-align: justify;
     color: beige;
     box-sizing: border-box;
